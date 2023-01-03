@@ -15,7 +15,7 @@ $ yarn develop
 
 ## License
 
-[Tailwind UI license](https://tailwindui.com/license).
+[Tailwind UI license](https://tailwindui.com/license)
 
 ## View Project
 

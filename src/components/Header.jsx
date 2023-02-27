@@ -26,13 +26,13 @@ export default function Header() {
         <>
           <div
             className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"
-            style={{ padding: "16px 0" }}
+            style={{ padding: "16px 8px" }}
           >
             <div className="flex h-16 justify-between">
               <div className="flex">
                 <div className="-ml-2 mr-2 flex items-center md:hidden">
                   {/* Mobile menu button */}
-                  <Disclosure.Button className="text-white-400 inline-flex items-center justify-center rounded-md p-2 hover:bg-gray-100 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-simplyrooted-500">
+                  <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-white hover:bg-gray-100 hover:text-simplyrooted-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-simplyrooted-500">
                     <span className="sr-only">Open main menu</span>
                     {open ? (
                       <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
@@ -47,7 +47,7 @@ export default function Header() {
                   </a>
                 </div>
                 <div
-                  className="hidden md:ml-12 md:flex md:space-x-8"
+                  className="hidden md:ml-4 md:flex md:space-x-8 lg:ml-12"
                   style={{ marginTop: "8px" }}
                 >
                   {/* Current: "border-simplyrooted-500 text-white-900", Default: "border-transparent text-white hover:border-gray-300 hover:text-white-700" */}
@@ -87,7 +87,9 @@ export default function Header() {
                       className="mr-2 h-5 w-5 flex-shrink-0"
                       aria-hidden="true"
                     />
-                    <span>Book Appointment</span>
+                    <span>
+                      Book <span className="hidden md:inline">Appointment</span>
+                    </span>
                   </button>
                 </div>
               </div>
@@ -99,31 +101,31 @@ export default function Header() {
               {/* Current: "bg-simplyrooted-50 border-simplyrooted-500 text-simplyrooted-700", Default: "border-transparent text-white hover:bg-gray-50 hover:border-gray-300 hover:text-white-700" */}
               <Disclosure.Button
                 as="a"
-                href="#"
-                className="bg-simplyrooted-50 block border-l-4 border-simplyrooted-500 py-2 pl-3 pr-4 text-xl font-medium text-simplyrooted-700 sm:pl-5 sm:pr-6"
+                href="/services"
+                className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-xl font-medium text-white hover:border-gray-300 hover:bg-gray-50 hover:text-simplyrooted-700 sm:pl-5 sm:pr-6"
               >
-                Dashboard
+                Services
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
-                href="#"
-                className="hover:text-white-700 block border-l-4 border-transparent py-2 pl-3 pr-4 text-xl font-medium text-white hover:border-gray-300 hover:bg-gray-50 sm:pl-5 sm:pr-6"
+                href="/specials"
+                className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-xl font-medium text-white hover:border-gray-300 hover:bg-gray-50 hover:text-simplyrooted-700 sm:pl-5 sm:pr-6"
               >
-                Team
+                Specials
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
-                href="#"
-                className="hover:text-white-700 block border-l-4 border-transparent py-2 pl-3 pr-4 text-xl font-medium text-white hover:border-gray-300 hover:bg-gray-50 sm:pl-5 sm:pr-6"
+                href="/documents/menu.pdf"
+                className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-xl font-medium text-white hover:border-gray-300 hover:bg-gray-50 hover:text-simplyrooted-700 sm:pl-5 sm:pr-6"
               >
-                Projects
+                Menu
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
-                href="#"
-                className="hover:text-white-700 block border-l-4 border-transparent py-2 pl-3 pr-4 text-xl font-medium text-white hover:border-gray-300 hover:bg-gray-50 sm:pl-5 sm:pr-6"
+                href="/gift-cards"
+                className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-xl font-medium text-white hover:border-gray-300 hover:bg-gray-50 hover:text-simplyrooted-700 sm:pl-5 sm:pr-6"
               >
-                Calendar
+                Gift Cards
               </Disclosure.Button>
             </div>
           </Disclosure.Panel>

@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Paper Daisy";
+  src: url("../fonts/paper-daisy.ttf");
+}
+
 #__next {
   min-height: 100%;
+}
+
+body {
+  padding-top: 64px;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }

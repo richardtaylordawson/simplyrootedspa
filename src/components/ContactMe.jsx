@@ -116,7 +116,7 @@ export default function ContactMe() {
 
             <div className="grid grid-cols-1 lg:grid-cols-3">
               {/* Contact information */}
-              <div className="relative overflow-hidden bg-pink-700 py-10 px-6 sm:px-10 xl:p-12">
+              <div className="relative overflow-hidden bg-simplyrooted-700 py-10 px-6 sm:px-10 xl:p-12">
                 <div
                   className="pointer-events-none absolute inset-0 sm:hidden"
                   aria-hidden="true"
@@ -225,7 +225,7 @@ export default function ContactMe() {
                   </dt>
                   <dd className="flex text-base text-white">
                     <PhoneIcon
-                      className="h-6 w-6 flex-shrink-0 text-pink-200"
+                      className="h-6 w-6 flex-shrink-0 text-simplyrooted-200"
                       aria-hidden="true"
                     />
                     <span className="ml-3">
@@ -237,7 +237,7 @@ export default function ContactMe() {
                   </dt>
                   <dd className="flex text-base text-white">
                     <EnvelopeIcon
-                      className="h-6 w-6 flex-shrink-0 text-pink-200"
+                      className="h-6 w-6 flex-shrink-0 text-simplyrooted-200"
                       aria-hidden="true"
                     />
                     <span className="ml-3">
@@ -250,7 +250,7 @@ export default function ContactMe() {
                 <ul role="list" className="mt-8 flex space-x-8">
                   <li>
                     <a
-                      className="text-pink-200 hover:text-pink-100"
+                      className="text-simplyrooted-200 hover:text-simplyrooted-100"
                       href="https://www.facebook.com/profile.php?id=100089468934018&mibextid=LQQJ4d"
                       target="_blank"
                     >
@@ -273,7 +273,7 @@ export default function ContactMe() {
                   </li>
                   <li>
                     <a
-                      className="text-pink-200 hover:text-pink-100"
+                      className="text-simplyrooted-200 hover:text-simplyrooted-100"
                       href="http://instagram.com/balancedtax"
                     >
                       <span className="sr-only">Instagram</span>
@@ -320,7 +320,7 @@ export default function ContactMe() {
                             name="firstName"
                             id="firstName"
                             autoComplete="given-name"
-                            className={`block w-full rounded-md border-gray-300 py-3 px-4 text-gray-900 shadow-sm focus:border-pink-500 focus:ring-pink-500 ${
+                            className={`block w-full rounded-md border-gray-300 py-3 px-4 text-gray-900 shadow-sm focus:border-simplyrooted-500 focus:ring-simplyrooted-500 ${
                               touched.firstName &&
                               errors.firstName &&
                               "border-red-500"
@@ -349,7 +349,7 @@ export default function ContactMe() {
                             name="lastName"
                             id="lastName"
                             autoComplete="family-name"
-                            className={`block w-full rounded-md border-gray-300 py-3 px-4 text-gray-900 shadow-sm focus:border-pink-500 focus:ring-pink-500 ${
+                            className={`block w-full rounded-md border-gray-300 py-3 px-4 text-gray-900 shadow-sm focus:border-simplyrooted-500 focus:ring-simplyrooted-500 ${
                               touched.lastName &&
                               errors.lastName &&
                               "border-red-500"
@@ -378,7 +378,7 @@ export default function ContactMe() {
                             name="email"
                             type="email"
                             autoComplete="email"
-                            className={`block w-full rounded-md border-gray-300 py-3 px-4 text-gray-900 shadow-sm focus:border-pink-500 focus:ring-pink-500 ${
+                            className={`block w-full rounded-md border-gray-300 py-3 px-4 text-gray-900 shadow-sm focus:border-simplyrooted-500 focus:ring-simplyrooted-500 ${
                               touched.email && errors.email && "border-red-500"
                             }`}
                             onChange={handleChange}
@@ -407,7 +407,7 @@ export default function ContactMe() {
                             name="phone"
                             id="phone"
                             autoComplete="tel"
-                            className={`block w-full rounded-md border-gray-300 py-3 px-4 text-gray-900 shadow-sm focus:border-pink-500 focus:ring-pink-500 ${
+                            className={`block w-full rounded-md border-gray-300 py-3 px-4 text-gray-900 shadow-sm focus:border-simplyrooted-500 focus:ring-simplyrooted-500 ${
                               touched.phone && errors.phone && "border-red-500"
                             }`}
                             aria-describedby="phone"
@@ -435,7 +435,7 @@ export default function ContactMe() {
                             type="text"
                             name="subject"
                             id="subject"
-                            className={`block w-full rounded-md border-gray-300 py-3 px-4 text-gray-900 shadow-sm focus:border-pink-500 focus:ring-pink-500 ${
+                            className={`block w-full rounded-md border-gray-300 py-3 px-4 text-gray-900 shadow-sm focus:border-simplyrooted-500 focus:ring-simplyrooted-500 ${
                               touched.subject &&
                               errors.subject &&
                               "border-red-500"
@@ -465,7 +465,7 @@ export default function ContactMe() {
                             id="message"
                             name="message"
                             rows={4}
-                            className={`block w-full rounded-md border-gray-300 py-3 px-4 text-gray-900 shadow-sm focus:border-pink-500 focus:ring-pink-500 ${
+                            className={`block w-full rounded-md border-gray-300 py-3 px-4 text-gray-900 shadow-sm focus:border-simplyrooted-500 focus:ring-simplyrooted-500 ${
                               touched.message &&
                               errors.message &&
                               "border-red-500"
@@ -485,7 +485,7 @@ export default function ContactMe() {
                       <div className="sm:col-span-2 sm:flex sm:justify-end">
                         <button
                           type="submit"
-                          className="mt-2 inline-flex w-full items-center justify-center rounded-md border border-transparent bg-pink-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-pink-700 focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-offset-2 sm:w-auto"
+                          className="mt-2 inline-flex w-full items-center justify-center rounded-md border border-transparent bg-simplyrooted-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-simplyrooted-700 focus:outline-none focus:ring-2 focus:ring-simplyrooted-500 focus:ring-offset-2 sm:w-auto"
                         >
                           Submit
                         </button>

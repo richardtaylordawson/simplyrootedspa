@@ -86,16 +86,16 @@ export default function Testimonials() {
               <ul role="list" className="flex flex-col gap-y-6 sm:gap-y-8">
                 {column.map((testimonial, testimonialIndex) => (
                   <li key={testimonialIndex}>
-                    <figure className="relative rounded-2xl bg-white p-6 shadow-xl shadow-pink-900/10">
-                      <QuoteIcon className="absolute top-6 left-6 fill-pink-100" />
+                    <figure className="relative rounded-2xl bg-white p-6 shadow-xl shadow-simplyrooted-900/10">
+                      <QuoteIcon className="absolute top-6 left-6 fill-simplyrooted-100" />
                       <blockquote className="relative">
                         <p className="text-lg tracking-tight text-gray-900">
                           {testimonial.content}
                         </p>
                       </blockquote>
-                      <figcaption className="relative mt-6 flex items-center justify-between border-t border-pink-100 pt-6">
+                      <figcaption className="relative mt-6 flex items-center justify-between border-t border-simplyrooted-100 pt-6">
                         <div>
-                          <div className="text-base text-pink-900">
+                          <div className="text-base text-simplyrooted-900">
                             {testimonial.author.name}
                           </div>
                         </div>

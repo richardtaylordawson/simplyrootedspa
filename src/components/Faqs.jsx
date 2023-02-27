@@ -6,7 +6,7 @@ const faqs = [
     id: 1,
     question: "How can I schedule an appointment?",
     answer:
-      'You can either <a href="#contact-me" class="text-pink-800 hover:text-pink-600">contact me</a> below, or text <a href="tel:801-332-9177" class="text-pink-800 hover:text-pink-600">801-332-9177</a> to set up an in person or virtual appointment',
+      'You can either <a href="#contact-me" class="text-simplyrooted-800 hover:text-simplyrooted-600">contact me</a> below, or text <a href="tel:801-332-9177" class="text-simplyrooted-800 hover:text-simplyrooted-600">801-332-9177</a> to set up an in person or virtual appointment',
   },
   {
     id: 2,
@@ -25,13 +25,13 @@ const faqs = [
     id: 4,
     question: "What do I need for my appointment?",
     answer:
-      "If you are a new client that has not previously filed your returns with me, please fill out the <a class='text-pink-800 hover:text-pink-600' href='/documents/tax_organizer.pdf'>following</a>. For existing clients, feel free to send me a text or email asking for the emailed link that lists pertinent forms based on prior years' returns. It's always safe to bring any documents you think you'll need - better to have it and not need it than need it and not have it!",
+      "If you are a new client that has not previously filed your returns with me, please fill out the <a class='text-simplyrooted-800 hover:text-simplyrooted-600' href='/documents/tax_organizer.pdf'>following</a>. For existing clients, feel free to send me a text or email asking for the emailed link that lists pertinent forms based on prior years' returns. It's always safe to bring any documents you think you'll need - better to have it and not need it than need it and not have it!",
   },
   {
     id: 5,
     question: "Where is my refund?",
     answer:
-      'You can check the status of your refund by <a class="text-pink-800 hover:text-pink-600" target="_blank" href="https://www.irs.gov/refunds">visiting the IRS</a>',
+      'You can check the status of your refund by <a class="text-simplyrooted-800 hover:text-simplyrooted-600" target="_blank" href="https://www.irs.gov/refunds">visiting the IRS</a>',
   },
 ]
 

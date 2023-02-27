@@ -40,7 +40,7 @@ export default function ServicesAndPricing() {
   return (
     <div
       id="services-and-pricing"
-      className="bg-pink-600 text-white"
+      className="bg-simplyrooted-600 text-white"
       style={{ scrollMarginTop: "113px" }}
     >
       <div className="mx-auto max-w-7xl py-24 px-6 lg:px-8">
@@ -62,7 +62,7 @@ export default function ServicesAndPricing() {
                 ></h2>
                 <p className="mt-4 text-sm text-gray-500">{tier.description}</p>
                 <p className="mt-8">
-                  <span className="text-4xl font-bold tracking-tight text-pink-900">
+                  <span className="text-4xl font-bold tracking-tight text-simplyrooted-900">
                     ${tier.price}
                   </span>{" "}
                 </p>
@@ -75,7 +75,7 @@ export default function ServicesAndPricing() {
                   {tier.includedFeatures.map((feature) => (
                     <li key={feature} className="flex space-x-3">
                       <CheckIcon
-                        className="h-5 w-5 flex-shrink-0 text-pink-700"
+                        className="h-5 w-5 flex-shrink-0 text-simplyrooted-700"
                         aria-hidden="true"
                       />
                       <span className="text-sm text-gray-600">{feature}</span>

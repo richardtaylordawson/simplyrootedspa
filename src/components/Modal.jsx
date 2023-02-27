@@ -51,7 +51,7 @@ export default function Modal({ heading, message, showModal, onClose, icon }) {
                 <div className="mt-5 sm:mt-6">
                   <button
                     type="button"
-                    className="inline-flex w-full justify-center rounded-md border border-transparent bg-pink-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-pink-700 focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-offset-2 sm:text-sm"
+                    className="inline-flex w-full justify-center rounded-md border border-transparent bg-simplyrooted-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-simplyrooted-700 focus:outline-none focus:ring-2 focus:ring-simplyrooted-500 focus:ring-offset-2 sm:text-sm"
                     onClick={onClose}
                   >
                     Close

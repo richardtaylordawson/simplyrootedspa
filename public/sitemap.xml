@@ -6,4 +6,40 @@
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
+  <url>
+    <loc>https://www.simplyrootedspa.com/services</loc>
+    <lastmod>2023-01-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.simplyrootedspa.com/services/facials</loc>
+    <lastmod>2023-01-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.simplyrootedspa.com/services/waxing</loc>
+    <lastmod>2023-01-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.simplyrootedspa.com/services/pedicures</loc>
+    <lastmod>2023-01-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.simplyrootedspa.com/services/manicures</loc>
+    <lastmod>2023-01-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.simplyrootedspa.com/specials</loc>
+    <lastmod>2023-01-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
 </urlset>

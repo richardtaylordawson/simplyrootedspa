@@ -34,7 +34,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        sans: ["Paper Daisy", ...defaultTheme.fontFamily.sans],
+        sans: ["Hand Wide", ...defaultTheme.fontFamily.sans],
       },
       maxWidth: {
         "2xl": "40rem",

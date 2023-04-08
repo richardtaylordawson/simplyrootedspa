@@ -44,7 +44,7 @@ export default function Footer() {
           ))}
         </div>
         <div className="mt-8 md:order-1 md:mt-0">
-          <p className="text-center text-xl leading-5 text-white">
+          <p className="text-center text-xl font-medium leading-5 text-white">
             &copy; {new Date().getFullYear()} Simply Rooted Spa. All rights
             reserved.
           </p>

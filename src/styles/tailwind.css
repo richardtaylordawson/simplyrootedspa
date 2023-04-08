@@ -3,8 +3,27 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Paper Daisy";
-  src: url("../fonts/paper-daisy.ttf");
+  font-family: "Hand Wide";
+  src: url("../fonts/TheHandWideRegular.otf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Hand Wide";
+  src: url("../fonts/TheHandWideBlack.otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Hand Wide";
+  src: url("../fonts/TheHandWideHeavy.otf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Hand Wide";
+  src: url("../fonts/TheHandWideUltra.otf");
+  font-weight: 800;
 }
 
 #__next {
@@ -12,11 +31,9 @@
 }
 
 body {
-  padding-top: 64px;
+  padding-top: 112px;
 }
 
-footer {
-  position: absolute;
-  width: 100%;
-  bottom: 0;
+.text-lg {
+  line-height: 30px;
 }

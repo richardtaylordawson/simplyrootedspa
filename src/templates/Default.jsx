@@ -1,8 +1,8 @@
 import Head from "next/head"
 import Script from "next/script"
 
-import Banner from "@/components/Banner"
-import Header from "@/components/Header"
+// import Banner from "@/components/Banner"
+import Header2 from "@/components/Header2"
 import Newsletter from "@/components/Newsletter"
 import Footer from "@/components/Footer"
 
@@ -32,12 +32,12 @@ export default function Default({ title, description, children }) {
         }}
       />
       {/* <Banner /> */}
-      <Header />
+      <Header2 />
       <main>
         {children}
         {/* <Newsletter /> */}
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </>
   )
 }

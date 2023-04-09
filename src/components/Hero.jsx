@@ -5,6 +5,23 @@ import Products from "@/images/spa/products.jpeg"
 import BambooSideTable from "@/images/spa/bamboo-side-table.jpeg"
 import { BookAppointment } from "./Buttons/BookAppointment"
 
+import { Facebook, Instagram } from "@/components/Icons"
+
+const navigation = {
+  social: [
+    {
+      name: "Facebook",
+      href: "https://www.facebook.com/SimplyRootedSpa",
+      icon: Facebook,
+    },
+    {
+      name: "Instagram",
+      href: "https://www.instagram.com/simplyrootedspa/",
+      icon: Instagram,
+    },
+  ],
+}
+
 export default function Hero() {
   return (
     <div className="overflow-hidden bg-white py-32">
@@ -25,6 +42,18 @@ export default function Hero() {
               >
                 Online Gift Cards <span aria-hidden="true">→</span>
               </a>
+            </div>
+            <div className="mt-10 flex justify-start space-x-10">
+              {navigation.social.map((item) => (
+                <a
+                  key={item.name}
+                  href={item.href}
+                  className="text-simplyrooted-400 hover:text-simplyrooted-500"
+                >
+                  <span className="sr-only">{item.name}</span>
+                  <item.icon className="h-10 w-10" aria-hidden="true" />
+                </a>
+              ))}
             </div>
           </div>
           <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">

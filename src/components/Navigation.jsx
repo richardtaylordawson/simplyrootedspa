@@ -2,32 +2,25 @@ import { useState } from "react"
 import { Dialog } from "@headlessui/react"
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline"
 import Image from "next/image"
-import Logo from "@/images/logos/madi.jpeg"
+import SimplyRootedSpaLogo from "@/images/logos/brown-white-background.jpeg"
+import { BookAppointment } from "./Buttons/BookAppointment"
 
 const navigation = [
-  { name: "Services", href: "#" },
-  { name: "Specials", href: "#" },
-  { name: "Menu", href: "#" },
-  { name: "Gift Cards", href: "#" },
+  { name: "Menu", href: "/documents/menu.pdf", target: "" },
+  {
+    name: "Gift Cards",
+    href: "https://squareup.com/gift/9HXF0XNKEJTQ0/order",
+    target: "_blank",
+  },
 ]
 
-export default function Header2() {
+export const Navigation = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header
-      className="bg-white"
-      style={{
-        backgroundColor: "#fff",
-        // boxShadow: "0px 3px 5px #ddd",
-        position: "fixed",
-        top: "0px",
-        width: "100%",
-        zIndex: "9999999",
-      }}
-    >
+    <header className="fixed top-0 z-50 w-full border-b-2 border-simplyrooted-100 bg-white">
       <nav
-        className="mx-auto flex max-w-7xl items-end justify-between p-6 lg:px-8"
+        className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
         aria-label="Global"
       >
         <div className="flex flex-1">
@@ -36,7 +29,8 @@ export default function Header2() {
               <a
                 key={item.name}
                 href={item.href}
-                className="hover:text-simplyrooted700 text-lg font-medium leading-6 text-simplyrooted-500"
+                target={item.target}
+                className="text-lg font-medium leading-6 text-simplyrooted-600"
               >
                 {item.name}
               </a>
@@ -53,17 +47,16 @@ export default function Header2() {
             </button>
           </div>
         </div>
-        <a href="#" className="-m-1.5 p-1.5">
-          <span className="sr-only">Your Company</span>
-          <Image className="h-16 w-auto" src={Logo} alt="" />
+        <a href="/" className="-m-1.5 p-1.5">
+          <span className="sr-only">Simply Rooted Spa</span>
+          <Image
+            className="h-16 w-auto"
+            src={SimplyRootedSpaLogo}
+            alt="simply rooted spa logo"
+          />
         </a>
         <div className="flex flex-1 justify-end">
-          <a
-            href="#"
-            className="text-sm font-semibold leading-6 text-simplyrooted-500"
-          >
-            Log in <span aria-hidden="true">&rarr;</span>
-          </a>
+          <BookAppointment />
         </div>
       </nav>
       <Dialog
@@ -86,20 +79,15 @@ export default function Header2() {
               </button>
             </div>
             <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
+              <span className="sr-only">Simply Rooted Spa</span>
               <img
                 className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                alt=""
+                src={SimplyRootedSpaLogo}
+                alt="simply rooted spa logo"
               />
             </a>
             <div className="flex flex-1 justify-end">
-              <a
-                href="#"
-                className="text-sm font-semibold leading-6 text-gray-900"
-              >
-                Log in <span aria-hidden="true">&rarr;</span>
-              </a>
+              <BookAppointment />
             </div>
           </div>
           <div className="mt-6 space-y-2">
@@ -107,6 +95,7 @@ export default function Header2() {
               <a
                 key={item.name}
                 href={item.href}
+                target={item.target}
                 className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
               >
                 {item.name}

@@ -3,7 +3,11 @@ import Color from "@/components/Color"
 
 export default function ColorPalette() {
   return (
-    <Default description="Colors for Simply Rooted Spa website">
+    <Default
+      title="Color Palette"
+      description="Colors for Simply Rooted Spa website"
+    >
+      <Color bg="#000" />
       <Color bg="#A3654E" />
       <Color bg="#704526" />
       <Color bg="#A17456" />
@@ -17,7 +21,6 @@ export default function ColorPalette() {
       <Color bg="#F9CEB0" />
       <Color bg="#F6DFCD" />
       <Color bg="#FAE7D9" />
-      <Color bg="#000" />
     </Default>
   )
 }

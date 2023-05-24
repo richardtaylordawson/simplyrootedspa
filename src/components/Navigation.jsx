@@ -95,9 +95,6 @@ export const Navigation = () => {
                 alt="simply rooted spa logo"
               />
             </a>
-            <div className="flex flex-1 justify-end">
-              <BookAppointment />
-            </div>
           </div>
           <div className="mt-12 space-y-2">
             {navigation.map((item) => (

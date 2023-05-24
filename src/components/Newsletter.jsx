@@ -14,9 +14,9 @@
 */
 export default function Newsletter() {
   return (
-    <div className="bg-white py-16 sm:py-24">
+    <div className="bg-white sm:py-16 sm:py-24">
       <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
-        <div className="relative isolate overflow-hidden bg-simplyrooted-500 px-6 py-24 shadow-2xl sm:rounded-3xl sm:px-24 xl:py-32">
+        <div className="relative isolate overflow-hidden bg-simplyrooted-500 px-6 py-24 sm:rounded-3xl sm:px-24 sm:shadow-2xl xl:py-32">
           <h2 className="font-display text-center text-3xl font-medium tracking-tight text-white lg:text-5xl">
             Get Updates & Specials Delivered to Your Inbox
           </h2>

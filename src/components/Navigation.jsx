@@ -18,12 +18,12 @@ export const Navigation = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="bg-simplyrooted-50">
+    <header className="bg-white">
       <nav
         className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
         aria-label="Global"
       >
-        <div className="mr-8 flex sm:mr-0">
+        <div className="flex flex-1">
           <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
               <a
@@ -46,15 +46,11 @@ export const Navigation = () => {
               <Bars3Icon
                 className="h-6 w-6 text-simplyrooted-700"
                 aria-hidden="true"
-                style={{ position: "fixed", left: "45px", top: "20px" }}
               />
             </button>
           </div>
         </div>
-        <a
-          href="/"
-          className="-m-1.5 flex w-full items-center justify-center p-1.5 lg:w-auto"
-        >
+        <a href="#" className="-m-1.5 p-1.5">
           <span className="sr-only">Simply Rooted Spa</span>
           <Image
             className="h-16 w-auto"
@@ -62,8 +58,8 @@ export const Navigation = () => {
             alt="simply rooted spa logo"
           />
         </a>
-        <div className="d:none flex hidden lg:flex">
-          <BookAppointment />
+        <div className="flex flex-1 justify-end">
+          <BookAppointment className="hidden lg:flex" />
         </div>
       </nav>
       <Dialog
@@ -75,7 +71,7 @@ export const Navigation = () => {
         <div className="fixed inset-0 z-10" />
         <Dialog.Panel className="fixed inset-y-0 left-0 z-10 w-full overflow-y-auto bg-white px-6 py-6">
           <div className="flex items-center justify-between">
-            <div className="mr-8 flex">
+            <div className="flex flex-1">
               <button
                 type="button"
                 className="-m-2.5 rounded-md p-2.5 text-gray-700"
@@ -96,8 +92,11 @@ export const Navigation = () => {
                 alt="simply rooted spa logo"
               />
             </a>
+            <div className="flex flex-1 justify-end">
+              <BookAppointment className="hidden lg:flex" />
+            </div>
           </div>
-          <div className="mt-12 space-y-2">
+          <div className="mt-6 space-y-2">
             {navigation.map((item) => (
               <a
                 key={item.name}

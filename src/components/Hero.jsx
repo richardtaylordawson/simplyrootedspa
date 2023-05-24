@@ -61,7 +61,7 @@ export default function New() {
                 src={Portrait}
                 alt=""
                 style={{ objectPosition: "0% 20%" }}
-                className="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover"
+                className="aspect-[7/5] w-full max-w-none rounded-2xl bg-gray-50 object-cover lg:w-[37rem]"
               />
             </div>
             <div className="contents hidden lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">

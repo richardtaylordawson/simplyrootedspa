@@ -2,7 +2,7 @@ import { Facebook, Instagram } from "@/components/Icons"
 
 const navigation = {
   main: [
-    { name: "Menu", href: "/documents/menu.pdf", target: "" },
+    { name: "Menu", href: "/documents/menu.jpeg", target: "" },
     {
       name: "Gift Cards",
       href: "https://squareup.com/gift/9HXF0XNKEJTQ0/order",

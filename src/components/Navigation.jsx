@@ -46,6 +46,7 @@ export const Navigation = () => {
               <Bars3Icon
                 className="h-6 w-6 text-simplyrooted-700"
                 aria-hidden="true"
+                style={{ position: "fixed", left: "45px", top: "20px" }}
               />
             </button>
           </div>

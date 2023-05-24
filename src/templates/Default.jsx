@@ -38,17 +38,17 @@ export default function Default({ title, description, children }) {
         <meta property="og:url" content="https://simplyrootedspa.com/" />
         <meta
           property="og:image"
-          content="https://simplyrootedspa.com/images/social-share.jpg"
+          content="https://simplyrootedspa.com/images/social-share.png"
         />
         <meta
           itemProp="image"
-          content="https://simplyrootedspa.com/images/social-share.jpg"
+          content="https://simplyrootedspa.com/images/social-share.png"
         />
         <meta
           name="twitter:image"
-          content="https://simplyrootedspa.com/images/social-share.jpg"
+          content="https://simplyrootedspa.com/images/social-share.png"
         />
-        <meta property="og:image:type" content="image/jpg" />
+        <meta property="og:image:type" content="image/png" />
         <meta property="og:image:width" content="640" />
         <meta property="og:image:height" content="320" />
         <meta name="twitter:card" content="summary_large_image" />

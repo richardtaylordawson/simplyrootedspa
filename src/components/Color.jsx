@@ -1,7 +1,7 @@
 export const Color = ({ background }) => {
   return (
     <div style={{ backgroundColor: background, height: "50px" }}>
-      {background}
+      <strong>{background}</strong>
     </div>
   )
 }

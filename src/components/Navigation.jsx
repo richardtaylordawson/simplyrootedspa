@@ -18,7 +18,7 @@ export const Navigation = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="fixed top-0 z-50 w-full border-b-2 border-simplyrooted-100 bg-white">
+    <header className="fixed top-0 z-50 w-full bg-simplyrooted-50">
       <nav
         className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
         aria-label="Global"
@@ -30,7 +30,7 @@ export const Navigation = () => {
                 key={item.name}
                 href={item.href}
                 target={item.target}
-                className="text-lg font-medium leading-6 text-simplyrooted-600"
+                className="text-lg font-medium leading-6 text-simplyrooted-600 hover:text-simplyrooted-800"
               >
                 {item.name}
               </a>

@@ -36,7 +36,7 @@ export default function New() {
             <div className="mt-10 flex items-center gap-x-6">
               <BookAppointment />
               <a
-                href="#"
+                href="https://squareup.com/gift/9HXF0XNKEJTQ0/order"
                 className="text-lg font-semibold leading-6 text-gray-700 hover:text-gray-900"
               >
                 Online Gift Cards <span aria-hidden="true">→</span>

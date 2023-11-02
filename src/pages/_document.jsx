@@ -21,6 +21,7 @@ export default function Document(props) {
       <body className="flex h-full flex-col">
         <Main />
         <NextScript />
+        <script type="text/javascript">!function(){var b=function(){window.__AudioEyeSiteHash = "72931b1378479effa4cf8c99fd7d64e5"; var a=document.createElement("script");a.src="https://wsmcdn.audioeye.com/aem.js";a.type="text/javascript";a.setAttribute("async","");document.getElementsByTagName("body")[0].appendChild(a)};"complete"!==document.readyState?window.addEventListener?window.addEventListener("load",b):window.attachEvent&&window.attachEvent("onload",b):b()}();</script>
       </body>
     </Html>
   )
